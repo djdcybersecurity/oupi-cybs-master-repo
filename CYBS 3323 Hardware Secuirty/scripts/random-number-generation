@@ -1,0 +1,10 @@
+import random
+
+# Set the seed for reproducibility
+random.seed(8086)
+
+# Generate six random numbers between 10 and 60
+random_numbers = [random.randint(10, 60) for _ in range(6)]
+
+# Print the generated numbers
+print("Random numbers with seed 8086:", random_numbers)
